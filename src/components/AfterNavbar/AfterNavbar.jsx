@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap"
-import './NavBar.scss'
+import './AfterNavbar.scss'
 import Logo from '../../assets/react.svg'
 import PropTypes from 'prop-types'
 import { useEffect } from "react"
@@ -75,12 +75,12 @@ const Navigation = () => {
     )
 }
 
-const NavBar = () => {
+const AfterNavbar = () => {
   return (
-    <header className="NavBar">
+    <header className="AfterNavbar">
         <Navigation />
     </header>
   )
 }
 
-export default NavBar
+export default AfterNavbar
