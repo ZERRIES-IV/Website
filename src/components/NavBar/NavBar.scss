@@ -1,0 +1,57 @@
+.NavBar{
+    .navbar {
+        margin: 20px 0 0 0;
+        width: 100%;
+        padding: 10px 3px;
+        position: relative;
+        z-index: 99;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        margin: 0;
+        padding: 10px 3px;
+        background: rgba( 255, 255, 255, 0.4);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 5px);
+        -webkit-backdrop-filter: blur( 1px);
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+    }
+
+    .container-fluid{
+        margin: 0;
+        justify-content: space-between !important;
+        .navbar-brand{
+            font-weight: 700;
+            font-size: 30px
+        }
+
+        .navbar-toggler {
+            border: none;            
+        }
+
+        #offcanvasNavbar-expand-md{
+            .ml-auto{
+                .nav-link{
+                    margin: 0 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color:black;
+                } 
+                :hover{
+                    color: rgb(76, 76, 76);
+                }
+            }
+
+            #myBtn {
+                background-image: linear-gradient(69deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
+                border: 0;
+                font-weight: 600;
+                width: 150px;
+                color: white;
+            }
+        }     
+    }
+}
