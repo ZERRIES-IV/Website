@@ -1,7 +1,7 @@
 import {HeroButton, HeroInnerDiv, HeroButtonDiv} from './Hero'
 import HeroGif from '../../assets/hero.gif'
 import { styled } from 'styled-components'
-import { RainbowButton } from '../Navbar/Navbar'
+import { RainbowButton } from '../NavBar/NavBar'
 
 const SecondHeroDiv =styled.div`
     overflow: hidden;
