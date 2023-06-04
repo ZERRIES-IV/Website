@@ -16,12 +16,15 @@ const Button = styled.button`
 
 export const RainbowButton = (props) => {
     return (
-        <Button>{props.innerText}</Button>
+        <a href={props.innerLink} srcSet="" target="_blank" rel="noreferrer">
+            <Button>{props.innerText}</Button>
+        </a>
     )
 }
 
 RainbowButton.propTypes = {
-    innerText: PropTypes.string
+    innerText: PropTypes.string,
+    innerLink: PropTypes.string
 }
 
 const Navigation = () => {
@@ -67,7 +70,7 @@ const Navigation = () => {
                         <Nav.Link>Locker</Nav.Link>
                         <Nav.Link>Project</Nav.Link>
                     </Nav>
-                    <RainbowButton innerText="Connect Wallet" />
+                    <RainbowButton innerText="Connect Wallet" innerLink="https://zerries-swap.netlify.app/" />
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>
             </Container>
