@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap"
 import './AfterNavbar.scss'
-import Logo from '../../assets/react.svg'
+import Logo from '../../assets/logo.png'
 import PropTypes from 'prop-types'
 import { useEffect } from "react"
 import { styled } from "styled-components"
@@ -16,12 +16,15 @@ const Button = styled.button`
 
 export const RainbowButton = (props) => {
     return (
-        <Button>{props.innerText}</Button>
+        <a href={props.innerLink} srcSet="" target="_blank" rel="noreferrer">
+            <Button>{props.innerText}</Button>
+        </a>
     )
 }
 
 RainbowButton.propTypes = {
-    innerText: PropTypes.string
+    innerText: PropTypes.string,
+    innerLink: PropTypes.string
 }
 
 const Navigation = () => {
@@ -50,7 +53,7 @@ const Navigation = () => {
         <Navbar expand="md" id="navbar">
             <Container fluid>
                 <Navbar.Brand href='#home'>
-                    <img alt='LOGO' src={Logo} width={50} height={50} />{' '} Zerries
+                    <img alt='LOGO' src={Logo} width={70} height={50} />{' '} Zerries
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar-expand-md" />
                 <Navbar.Offcanvas id="offcanvasNavbar-expand-md" aria-labelledby="offcanvasNavbarLabel-expand-md" placement="end">
@@ -67,7 +70,7 @@ const Navigation = () => {
                         <Nav.Link>Locker</Nav.Link>
                         <Nav.Link>Project</Nav.Link>
                     </Nav>
-                    <RainbowButton innerText="Connect Wallet" />
+                    <RainbowButton innerText="Connect Wallet" innerLink="https://zerries-swap.netlify.app/" />
                 </Offcanvas.Body>
                 </Navbar.Offcanvas>
             </Container>

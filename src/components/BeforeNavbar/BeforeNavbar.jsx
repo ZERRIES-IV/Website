@@ -40,7 +40,7 @@ const BeforeNavbar = () => {
           <BeforeNavbarSpan className="counter">500</BeforeNavbarSpan>
           <BeforeNavbarH1>Zerries - ZRIS</BeforeNavbarH1>
         </div>
-        <BeforeNavbarA href="http://" target="_blank" rel="noopener noreferrer">Explorer</BeforeNavbarA>
+        <BeforeNavbarA href="https://venom.network/" target="_blank" rel="noopener noreferrer">Explorer</BeforeNavbarA>
     </BeforeNavbarDiv>
   )
 }

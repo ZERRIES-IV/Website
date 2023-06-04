@@ -1,5 +1,5 @@
 import {HeroButton, HeroInnerDiv, HeroButtonDiv} from './Hero'
-import HeroGif from '../../assets/hero.gif'
+import HeroGif from '../../assets/3dLogo.png'
 import { styled } from 'styled-components'
 import { RainbowButton } from '../AfterNavbar/AfterNavbar'
 
@@ -21,6 +21,7 @@ const SecondHeroDiv =styled.div`
 
 const HalfDiv = styled.div`
     width: 100%;
+    border: 2px solid gray;
     border-radius: 10px;
     display: flex;
     text-align: left;
@@ -38,7 +39,7 @@ const HalfDiv = styled.div`
 
 const HalfDivH2 = styled.h2`
     font-size: 60px;
-    color: white;
+    color: black;
 
     @media (max-width: 1024px){
         font-size: 50px;

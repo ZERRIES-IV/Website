@@ -114,7 +114,7 @@ const Banner =() => {
         <BannerBackgroundDiv>
             <InnerBannerText TopText="2920" BottomText="Airdrop Given" />
             <InnerBannerText TopText="Z 100000" BottomText="Airdrop won" />
-            <InnerBannerText TopText="600" BottomText="Mulsh NFTs owned" />
+            <InnerBannerText TopText="600" BottomText="Zerries  NFTs owned" />
         </BannerBackgroundDiv>
     )
 }
@@ -138,11 +138,11 @@ Information.propTypes = {
 const BannerInformation = () => {
     return(
         <BannerInformationDiv>
-            <BannerInformationH1>Trust and Gamble in this community to provide the right solution on Algorand</BannerInformationH1>
+            <BannerInformationH1>Trust and Gamble in this community to provide the right solution on Venom</BannerInformationH1>
             <BannerInformationInnerDiv>
-                <Information Image={airdrop} TopText="Fair airdrop" BottomText="Every on gets his or her mulshshare according to thier buy"/>
-                <Information Image={stat} TopText="Rapid transactions" BottomText="Algorand offers a super fast transaction speed which is great experience"/>
-                <Information Image={done} TopText="Be an Investor" BottomText="Being an investor ultimately pays all. See good project, Invest"/>
+                <Information Image={airdrop} TopText="Fair airdrop" BottomText="Every one gets his or her Zerries share."/>
+                <Information Image={stat} TopText="Rapid transactions" BottomText="Venom offers a super fast transaction speed."/>
+                <Information Image={done} TopText="Be an Investor" BottomText="Being an investor ultimately pays all."/>
             </BannerInformationInnerDiv>
         </BannerInformationDiv>
     )
