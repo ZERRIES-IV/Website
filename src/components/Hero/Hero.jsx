@@ -78,9 +78,9 @@ export const HeroButtonDiv = styled.div`
 
 export const HeroButton = styled.button`
     font-size: 15px;
-    color: white;
+    color: black;
     padding: 10px 25px;
-    border: 2px solid white;
+    border: 2px solid black;
     background-color: transparent;
     border-radius: 10px;
 
