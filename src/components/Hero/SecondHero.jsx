@@ -77,7 +77,7 @@ const HalfDivColumn = styled.div`
 
 const SecondHeroImg = styled.div`
     background-image: linear-gradient(270deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
-    border-radius: 10px;
+    border-radius: 29% 71% 57% 43% / 52% 48% 52% 48% ;
     position: relative;
     z-index: 0;
     width: 100%;

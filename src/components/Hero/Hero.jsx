@@ -7,12 +7,14 @@ const HeroDiv = styled.div`
 
 const HeroVid = styled.div`
     background-image: linear-gradient(300deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
-    border-radius: 10px;
+    border-radius: 5% 95% 98% 2% / 52% 66% 34% 48%  ;
     margin: 0 30px;
     width: 94vw;
     height: 500px;
     position: relative;
     z-index: 0;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
     
     @media (max-width: 769px){
         height: 340px;

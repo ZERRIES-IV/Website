@@ -10,8 +10,13 @@ const Button = styled.button`
     border: 0;
     border-radius: 10px;
     font-weight: 600;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: white;
+    transition: 1s ease-in-out;
+
+    &:hover {
+        padding: 7px 18px;
+    }
 `
 
 export const RainbowButton = (props) => {
