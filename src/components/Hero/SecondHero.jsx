@@ -3,18 +3,21 @@ import { styled } from 'styled-components'
 import { RainbowButton } from '../AfterNavbar/AfterNavbar'
 
 const SecondHeroDiv =styled.div`
+    background: white;
     overflow: hidden;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(2, 1fr);
-    margin: 25px 30px 0 30px;
+    padding: 20px 30px;
+    margin: 25px 0 0 0;
+    border-radius: 30px  ;
 
     @media (max-width: 769px){
         grid-template-columns: repeat(1, 1fr);
     }
 
     @media (max-width: 600px){
-        margin: 25px 10px 0 10px;
+        padding: 0 10px 0 10px;
     }
 `
 
@@ -65,6 +68,7 @@ const HalfDivColumn = styled.div`
     padding: 10px 10px 0 10px;
     max-height: 500px;
 
+
     @media (max-width: 426px){
         height: 300px;
     }
@@ -77,7 +81,7 @@ const HalfDivColumn = styled.div`
 
 const SecondHeroImg = styled.div`
     background-image: linear-gradient(270deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
-    border-radius: 29% 71% 57% 43% / 52% 48% 52% 48% ;
+    border-radius: 17% 83% 57% 43% / 34% 17% 83% 66%  ;
     position: relative;
     z-index: 0;
     width: 100%;
