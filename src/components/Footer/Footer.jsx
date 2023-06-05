@@ -42,17 +42,12 @@ const SOCIALS = [
     {
         name: 'telegram-chat',
         src: `${TelegramIcon}`,
-        hrf: 'https://t.me/musheehub'
+        hrf: 'https://t.me/'
     },    
     {
         name: 'twitter',
         src: `${TwitterIcon}`,
-        hrf: 'https://twitter.com/musheehub'
-    },
-    {
-        name: 'telegram-channel',
-        src: `${TelegramIcon}`,
-        hrf: 'https://t.me/musheehall'
+        hrf: 'https://twitter.com/'
     },
 ]
 

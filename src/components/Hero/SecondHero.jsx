@@ -1,5 +1,4 @@
 import {HeroButton, HeroInnerDiv, HeroButtonDiv} from './Hero'
-import HeroGif from '../../assets/3dLogo.png'
 import { styled } from 'styled-components'
 import { RainbowButton } from '../AfterNavbar/AfterNavbar'
 
@@ -21,7 +20,6 @@ const SecondHeroDiv =styled.div`
 
 const HalfDiv = styled.div`
     width: 100%;
-    border: 2px solid gray;
     border-radius: 10px;
     display: flex;
     text-align: left;
@@ -39,7 +37,7 @@ const HalfDiv = styled.div`
 
 const HalfDivH2 = styled.h2`
     font-size: 60px;
-    color: black;
+    color: white;
 
     @media (max-width: 1024px){
         font-size: 50px;
@@ -77,13 +75,12 @@ const HalfDivColumn = styled.div`
 
 `
 
-const SecondHeroImg = styled.img`
+const SecondHeroImg = styled.div`
+    background-image: linear-gradient(270deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
     border-radius: 10px;
     position: relative;
     z-index: 0;
     width: 100%;
-
-    
 `
 
 const BasicDiv = styled.div`
@@ -165,7 +162,7 @@ const JoinAd = () => {
                     <HeroButton>Join</HeroButton>
                 </HeroButtonDiv>
             </HeroInnerDiv>
-            <SecondHeroImg src={HeroGif} alt="GIF" srcSet="" autoPlay/>
+            <SecondHeroImg />
         </HalfDiv>
     )
 }

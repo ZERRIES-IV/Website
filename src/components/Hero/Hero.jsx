@@ -1,12 +1,12 @@
 import { styled } from "styled-components"
-import HeroImage from '../../assets/hero.png'
 
 const HeroDiv = styled.div`
     overflow-x: hidden;
     width: 98vw;
 `
 
-const HeroImg = styled.img`
+const HeroVid = styled.div`
+    background-image: linear-gradient(300deg, rgba(100, 255, 196, 0.616), rgba(0, 102, 255, 0.753), rgba(209, 58, 229, 0.715));
     border-radius: 10px;
     margin: 0 30px;
     width: 94vw;
@@ -78,9 +78,9 @@ export const HeroButtonDiv = styled.div`
 
 export const HeroButton = styled.button`
     font-size: 15px;
-    color: black;
+    color: white;
     padding: 10px 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     background-color: transparent;
     border-radius: 10px;
 
@@ -111,7 +111,7 @@ const Hero = () => {
                 <HeroButton>NFT Rewards</HeroButton>
             </HeroButtonDiv>
         </HeroInnerDiv>
-        <HeroImg src={HeroImage} alt="Hero Image" srcSet="" />
+        <HeroVid />
     </HeroDiv>
   )
 }
